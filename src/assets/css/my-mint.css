@@ -1,0 +1,136 @@
+.redfont{
+    color: #F71F59;
+}
+.whitefont{
+    color: white;
+}
+.loading{
+    color: white;
+    font-size: 14px;
+    margin: 4% 0px;
+    text-align: center;
+}
+.sambutton {
+    border: none;
+    background-image: linear-gradient(to right,#2AC8FC,#2778FF);
+    outline: none;
+    color: white;
+    width: 100%;
+    border-radius: 20px;
+    height: 40px;
+    margin: 8% 0px;
+}
+.mint-msgbox {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    background-color: #fff;
+    width: 70%;
+    border-radius: 10px;
+    font-size: 16px;
+    -webkit-user-select: none;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+.mint-msgbox-confirm {
+    color: white;
+    width: 50%;
+    background-color: #1BB6F7;
+}
+.mint-msgbox-input input{
+    width: 94%;
+    text-align: center;
+}
+.mint-msgbox-header{
+    margin-top: 14px;
+}
+.mint-toast-icon {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+}
+.mint-toast{
+    padding: 6% 16% !important;
+}
+.mint-header-title{
+    font-size: 16px;
+}
+.mint-header{
+    background-color: #172748;
+}
+.mint-actionsheet {
+    background: none;
+}
+.mint-actionsheet-listitem, .mint-actionsheet-button {
+    font-size: 14px;
+    color: white;
+    background-color: #172748;
+}
+.mint-actionsheet-listitem{
+    border-bottom: none;
+}
+ul .mint-actionsheet-listitem:first-child{
+    border-radius: 10px 10px 0px 0px;
+}
+.mint-msgbox-input input {
+    width: 94%;
+    text-align: left;
+}
+
+.nut-short-pwd .nut-layer-center {
+    height: 200px;
+    width: 86%;
+}
+.nut-short-pwd .nut-forget {
+    text-align: center;
+    padding-right: 0px;
+}
+.nut-short-pwd .nut-forget a {
+    color: #0F79E7;
+}
+.nut-short-pwd .nut-layer .nut-input-w {
+    padding: 6px 0 0;
+}
+.nut-short-pwd .nut-forget a:before {
+    margin: -2px 5px 0 0;
+}
+.nut-short-pwd .nut-layer .nut-close {
+    left: 90%;
+}
+.nut-short-pwd .nut-layer .nut-title {
+    margin-top: 20px;
+    border-bottom: none;
+    font-size: 18px;
+}
+.nut-short-pwd .nut-layer .nut-input-w .nut-fake-list {  
+    width: 100%;
+    background: none;
+}
+.nut-short-pwd .nut-layer .nut-input-w .nut-fake-list li {
+    margin-left: 0px;
+    border: 1px solid #000;
+    width: 12%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 3% 2%;
+    display: inline-block;
+    float: none;
+}
+.nut-short-pwd .nut-layer .nut-input-w .nut-real-input {
+    top: 30px;
+    margin-left: -81%;
+    height: 40px;
+    opacity: 0;
+}
+.nut-short-pwd .nut-layer .nut-input-w .nut-fake-list input {
+    height: 100%;
+    width: 100%;
+}
+.nut-short-pwd .nut-layer .nut-input-w .nut-fake-list ul {
+    padding-top: 0px;
+}
